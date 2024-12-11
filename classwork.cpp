@@ -3,7 +3,9 @@
 
 int main()
 {
-  // write code here
-  
-  return 0;
+  int age = 10;
+  double price = 19.99;
+  bool isRaining = false;
+
+  std::cout << age << price << isRaining
 }
