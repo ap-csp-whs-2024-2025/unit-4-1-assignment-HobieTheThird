@@ -3,12 +3,19 @@
 
 int main()
 {
-  int age = 10;
-  double price = 19.99;
-  bool isRaining = false;
+int  x = 5;
+int y = 10;
+int add_xy = x + y;
+int mod_xy = x % y;
+std::cout << add_xy << std::endl;
 
-  std::cout << age << price << isRaining << std::endl;
-  int grade_level = 11;
-  std::cout << "I am a " << grade_level << "th grader." << std::endl;
+//ex2
+bool isSunny = true;
+bool hasUmbrella = false;
+std::cout << (isSunny && hasUmbrella) << std::endl;
+
+bool sun_or_umb = isSunny || hasUmbrella;
+std::cout << sun_or_umb << "\n";
+  
   return 0;
 }
